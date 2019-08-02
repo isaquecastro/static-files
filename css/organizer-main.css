@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css?family=Abel|Blinker:100,300,400,700,800,900|Cairo:400,700|Fjalla+One|Hind:300,400,700|Lato:100,300,400,700,900|Merriweather+Sans:300,400|Merriweather:400,900|Montserrat:100,200,300,400,700,900|Noto+Sans:400,700|Open+Sans+Condensed:300,700|Open+Sans:300,400,700,800,800i|Oswald:300,400|PT+Sans+Narrow:400,700|Raleway:100,200,300,400,800,800i,900,900i|Roboto+Condensed:300,400,700,700i|Roboto+Mono:100,300,400,700|Roboto:100,300,400,700,900|Rubik:300,400,700,900,900i|Ubuntu+Condensed&display=swap');
+/*
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Blinker', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body.index-bg {
+  background: url("https://cdn.jsdelivr.net/gh/isaquecastro/static-files@master/chart-flow-chart-plan-900108.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.layer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 10, 34, 0.33);
+  z-index: 1;
+}
+
+div.wrapper {
+  position: absolute;
+  max-width: 70%;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+div.wrapper h1, h2 {
+  margin: 0;
+  color: white;
+}
+div.wrapper h1{
+  font-size: 51pt;    
+  /*Hind, Releway, Roboto*/
+  
+  font-family: 'Open Sans', monospace;
+}
+div.wrapper h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 12pt;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+button.btn-primary{
+  border: 0;
+  outline: none;
+  padding: 7px 17px 7px 17px;
+  background: #1272f0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 30px;
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 10pt;
+  cursor: pointer;
+  transition: .5s;
+}
+button.btn-primary:hover{
+  background: #0f5dc3;
+}
